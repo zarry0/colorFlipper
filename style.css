@@ -57,7 +57,7 @@ body {
 }
 
 .bgArea {
-    background-color: var(--startColor);
+    background-color: #F1f5f8;
     min-height: calc(100vh - 5.9rem);
     display: flex;
     justify-content: center;
@@ -75,10 +75,7 @@ body {
     cursor: pointer;
 }
 
-.colorBtn {
-
-}
-
 .colorCode {
-
+    font-weight: 600;
+    color: deepskyblue;
 }
