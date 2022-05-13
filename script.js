@@ -9,7 +9,7 @@ window.onload = () => {background.style['background-color'] = '#F1f5f8'}
 colorFormat.addEventListener('click', () => {
     rgbOn = !rgbOn;
     let actualColor = background.style['background-color'];
-    let colorChars = '', rgbComp = [], rgbStr = '';
+    let colorChars = '', rgbComp = [];
     if (rgbOn) {
         colorFormat.innerHTML = 'RGB';
         textColor.innerHTML =  `${actualColor}`;
