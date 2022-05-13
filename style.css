@@ -20,7 +20,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: var(--fuente);
-    min-width: 25rem;
+    min-width: 36rem;
 }
 
 
@@ -61,16 +61,20 @@ body {
 }
 
 .colorFlipper {
-    
-    max-width: fit-content;
+    max-width: 80%;
     padding: 2rem 8rem;
     border-radius: 4rem;
     background-color: var(--darkGray);
     color: white;
+    text-align: center;
     font-size: 3rem;
-    cursor: pointer;
-}
 
+}
+@media (min-width: 580px) {
+    .colorFlipper {
+        max-width: fit-content;
+    }   
+}
 .colorCode {
     font-weight: 600;
     color: deepskyblue;
