@@ -40,20 +40,16 @@ body {
     }
 }
 
-.header-title {
-
-}
-
 .header-colorMode {
     padding: 1rem 4rem;
-    background-color: gray;
+    background-color: rgb(201, 201, 201);
     border-radius: 3rem;
     text-align: center;
     cursor: pointer;
 }
 
 .header-colorMode:hover {
-    background-color: cornflowerblue;
+    filter: brightness(70%);
 }
 
 .bgArea {
