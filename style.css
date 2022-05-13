@@ -1,0 +1,84 @@
+:root {
+    --fuente: Verdana, sans-serif;
+    --startColor: #F1f5f8;
+    --darkGray: rgb(31,31,31);
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}/* 10px = 1rem*/
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: var(--fuente);
+    min-width: 25rem;
+}
+
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+@media (min-width: 400px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.header-title {
+
+}
+
+.header-colorMode {
+    padding: 1rem 4rem;
+    background-color: gray;
+    border-radius: 3rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header-colorMode:hover {
+    background-color: cornflowerblue;
+}
+
+.bgArea {
+    background-color: var(--startColor);
+    min-height: calc(100vh - 5.9rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorFlipper {
+    
+    max-width: fit-content;
+    padding: 2rem 8rem;
+    border-radius: 4rem;
+    background-color: var(--darkGray);
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.colorBtn {
+
+}
+
+.colorCode {
+
+}
